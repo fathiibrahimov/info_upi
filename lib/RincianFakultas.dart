@@ -10,6 +10,7 @@ class RincianFakultas extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Rincian Fakultas'),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
